@@ -35,7 +35,6 @@ Default RPC endpoint:
 
 Table: Default RPC table
 ```
-&nbsp;
 
 #### Connection Check
 ```
@@ -43,7 +42,6 @@ pyPancakeSwap.isConnected(None)
 ```
 Returns True is connected to RPC.
 
-&nbsp;
 
 #### Connect Wallet
 ```
@@ -51,7 +49,6 @@ pyPancakeSwap.connect_wallet(self,address:str,private_key:str)
 ```
 Returns True if the public address and private key match eachother and connects wallet.
 
-&nbsp;
 
 #### Get Balance
 ```
@@ -60,7 +57,6 @@ pyPancakeSwap.get_balance(self,token_address:str=None,token_abi:str=None)
 Returns balance of BNB if token address is not mentioned, if mentioned the returns balance of the specified token.
 Returns two types of values, true balance and other without decimal.
 
-&nbsp;
 
 #### Set Router Address
 ```
@@ -68,7 +64,6 @@ pyPancakeSwap.set_router_address(self,address:str)->None
 ```
 By default PancakeSwap Router is set.
 
-&nbsp;
 
 #### Price of token
 ```
@@ -77,7 +72,6 @@ pyPancakeSwap.get_price(self,token:str)->float
 Returns price of token of the contract address passed.
 
 
-&nbsp;
 
 #### Price of token
 ```
@@ -87,7 +81,6 @@ Returns liquidity in pool of token of the contract address passed.
 
 
 
-&nbsp;
 
 #### Buy token
 ```
@@ -95,7 +88,6 @@ pyPancakeSwap.buy_token_with_bnb(self,token_contract_address:str,amount_bnb:floa
 ```
 
 
-&nbsp;
 
 #### Approve Transaction
 ```
@@ -103,14 +95,12 @@ approve_token_for_bnb(self,token_contract_address:str,amount_token:float,gas:flo
 ```
 
 
-&nbsp;
 
 #### Sell token
 ```
 pyPancakeSwap.sell_token_for_bnb(self,token_contract_address:str,amount_token:float,gas:float=None,gasPrice:float=None,milliseconds_to_expire:int=None,min_tokens_expected:float=None) -> Tuple[TxReceipt, float]:
 ```
 
-&nbsp;
 
 #### Send BNB
 ```
